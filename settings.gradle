@@ -1,0 +1,14 @@
+/*
+ * in the user guide at https://docs.gradle.org
+ */
+rootProject.name = 'MaxKey-Synchronizer'
+
+//Synchronizer
+//MS Active Directory
+include 'maxkey-synchronizer-activedirectory'
+
+//OpenLDAP
+include 'maxkey-synchronizer-openldap'
+
+//dingding
+include 'maxkey-synchronizer-dingding'
